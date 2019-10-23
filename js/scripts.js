@@ -1,5 +1,5 @@
-$(Document).ready(function() {
-  $(#form1).submit(function(event) {
+$(document).ready(function() {
+  $("#form1").submit(function(event) {
   var noun1Input = $("input#noun1").val();
   var verbInput = $("input#verb").val();
   var nameInput = $("input#name").val();
@@ -22,5 +22,5 @@ $(Document).ready(function() {
 
   event.preventDefault();
 
- )};
-)};
+});
+});
